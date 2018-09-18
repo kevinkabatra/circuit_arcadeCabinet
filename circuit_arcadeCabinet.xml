@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\kevin\Documents\Arduino\circuit_arcadeCabinet\circuit_arcadeCabinet.sch</source>
+    <date>9/18/2018 9:07:56 AM</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Arcade Cabinet - Button and LED controller</title>
+        <company/>
+        <rev>1.0.0.0</rev>
+        <date>2018-09-16</date>
+        <source>circuit_arcadeCabinet.sch</source>
+        <comment number="1" value="arcade cabinet."/>
+        <comment number="2" value="This schematic illustrates the button and LED controller that I am using for my first"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Designed by Kevin Kabatra and released under MIT license."/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Leonardo</value>
+      <datasheet>https://www.arduino.cc/en/Main/ArduinoBoardLeonardo</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Leonardo" description="Arduino LEONARDO Microcontroller Module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9C3634</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC14N</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc14.pdf</datasheet>
+      <libsource lib="" part="74HC14N" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D6953</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_LED</value>
+      <libsource lib="Switch" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D6A71</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D6BFD</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D6DF1</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D712D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D72EF</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D73D5</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7µf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>http://www.jiaweicheng.com/en/product/53539752.html</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DC7CD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7µf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>http://www.jiaweicheng.com/en/product/53539752.html</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DD115</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7µf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>http://www.jiaweicheng.com/en/product/53539752.html</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DD177</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DE225</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DECDE</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DED22</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push_LED</value>
+      <libsource lib="Switch" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D6B09</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7µf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>http://www.jiaweicheng.com/en/product/53539752.html</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9EA1CC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x08_Counter_Clockwise</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_2x08_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA15B4F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DFF8A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DFF4E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DFF08</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DFE20</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="74xxN:74HC14N">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74xxN:74HC14N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="1Y" type="output"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="output"/>
+        <pin num="5" name="3A" type="input"/>
+        <pin num="6" name="3B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="4Y" type="output"/>
+        <pin num="9" name="4A" type="input"/>
+        <pin num="10" name="5Y" type="output"/>
+        <pin num="11" name="5A" type="input"/>
+        <pin num="12" name="6Y" type="output"/>
+        <pin num="13" name="6A" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarised capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>LED generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Leonardo">
+      <description>Arduino LEONARDO Microcontroller Module</description>
+      <docs>https://www.arduino.cc/en/Main/ArduinoBoardLeonardo</docs>
+      <footprints>
+        <fp>Arduino*UNO*R3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Leonardo</field>
+        <field name="Footprint">Module:Arduino_UNO_R3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="IOREF" type="output"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="3V3" type="power_out"/>
+        <pin num="5" name="+5V" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="A0" type="BiDi"/>
+        <pin num="10" name="A1" type="BiDi"/>
+        <pin num="11" name="A2" type="BiDi"/>
+        <pin num="12" name="A3" type="BiDi"/>
+        <pin num="13" name="A4" type="BiDi"/>
+        <pin num="14" name="A5" type="BiDi"/>
+        <pin num="15" name="D0/RX" type="BiDi"/>
+        <pin num="16" name="D1/TX" type="BiDi"/>
+        <pin num="17" name="D2/SDA" type="BiDi"/>
+        <pin num="18" name="D3/SCL" type="BiDi"/>
+        <pin num="19" name="D4" type="BiDi"/>
+        <pin num="20" name="D5" type="BiDi"/>
+        <pin num="21" name="D6" type="BiDi"/>
+        <pin num="22" name="D7" type="BiDi"/>
+        <pin num="23" name="D8" type="BiDi"/>
+        <pin num="24" name="D9" type="BiDi"/>
+        <pin num="25" name="D10" type="BiDi"/>
+        <pin num="26" name="D11" type="BiDi"/>
+        <pin num="27" name="D12" type="BiDi"/>
+        <pin num="28" name="D13" type="BiDi"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="AREF" type="input"/>
+        <pin num="31" name="SDA" type="BiDi"/>
+        <pin num="32" name="SCL" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_LED">
+      <description>Push button switch with LED, generic</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(A1-Pad13)">
+      <node ref="A1" pin="13"/>
+    </net>
+    <net code="2" name="Net-(A1-Pad15)">
+      <node ref="A1" pin="15"/>
+    </net>
+    <net code="3" name="Net-(A1-Pad16)">
+      <node ref="A1" pin="16"/>
+    </net>
+    <net code="4" name="Net-(A1-Pad25)">
+      <node ref="A1" pin="25"/>
+    </net>
+    <net code="5" name="Net-(A1-Pad26)">
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="6" name="Net-(A1-Pad27)">
+      <node ref="A1" pin="27"/>
+    </net>
+    <net code="7" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="8" name="Net-(A1-Pad32)">
+      <node ref="A1" pin="32"/>
+    </net>
+    <net code="9" name="Net-(A1-Pad31)">
+      <node ref="A1" pin="31"/>
+    </net>
+    <net code="10" name="Net-(A1-Pad14)">
+      <node ref="A1" pin="14"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="12" name="Net-(A1-Pad12)">
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="13" name="Net-(A1-Pad11)">
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="14" name="Net-(A1-Pad10)">
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="15" name="Net-(A1-Pad9)">
+      <node ref="A1" pin="9"/>
+    </net>
+    <net code="16" name="Net-(A1-Pad8)">
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="17" name="Net-(A1-Pad4)">
+      <node ref="A1" pin="4"/>
+    </net>
+    <net code="18" name="Net-(A1-Pad30)">
+      <node ref="A1" pin="30"/>
+    </net>
+    <net code="19" name="Net-(A1-Pad2)">
+      <node ref="A1" pin="2"/>
+    </net>
+    <net code="20" name="Load_State_Ouput">
+      <node ref="U1" pin="6"/>
+      <node ref="A1" pin="19"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="21" name="GND">
+      <node ref="U1" pin="7"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="J1" pin="16"/>
+      <node ref="A1" pin="29"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="23" name="Net-(A1-Pad7)">
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="24" name="Net-(A1-Pad6)">
+      <node ref="A1" pin="6"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="28" name="Player_1_Start_LED">
+      <node ref="J1" pin="6"/>
+      <node ref="D1" pin="2"/>
+      <node ref="A1" pin="23"/>
+    </net>
+    <net code="29" name="Net-(R2-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="30" name="Net-(R3-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="31" name="Player_2_Start_LED">
+      <node ref="D2" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="A1" pin="24"/>
+    </net>
+    <net code="32" name="Player_2_Coin_LED">
+      <node ref="A1" pin="22"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="33" name="Player_1_Coin_LED">
+      <node ref="SW2" pin="4"/>
+      <node ref="A1" pin="21"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="34" name="Save_State_Input">
+      <node ref="R8" pin="1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="35" name="Load_State_Input">
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="10"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="36" name="Player_2_Coin_Input">
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="12"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="37" name="Player_1_Coin_Input">
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="14"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="38" name="Save_State_Output">
+      <node ref="A1" pin="20"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="39" name="Player_1_Coin_Output">
+      <node ref="J1" pin="13"/>
+      <node ref="U1" pin="2"/>
+      <node ref="A1" pin="17"/>
+    </net>
+    <net code="40" name="Player_2_Coin_Output">
+      <node ref="A1" pin="18"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="41" name="5V">
+      <node ref="A1" pin="5"/>
+      <node ref="U1" pin="14"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="42" name="Net-(R1-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="43" name="Net-(R4-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="44" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+    </net>
+  </nets>
+</export>

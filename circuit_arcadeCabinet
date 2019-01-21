@@ -1,0 +1,10 @@
+Reference, Quantity, Value, Footprint, Datasheet
+A1 ,1,"Arduino_Leonardo","","https://www.arduino.cc/en/Main/ArduinoBoardLeonardo"
+C1 C2 C3 C4 ,4,"4.7µf","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","http://www.jiaweicheng.com/en/product/53539752.html"
+D1 D2 ,2,"LED","","~"
+J1 ,1,"Conn_02x08_Counter_Clockwise","Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical","~"
+R1 R2 R3 R4 ,4,"10K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+R5 R6 R7 R8 ,4,"1K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+SW1 SW2 ,2,"SW_Push_LED","",""
+SW3 SW4 ,2,"SW_Push","",""
+U1 ,1,"74HC14N","Package_DIP:DIP-14_W7.62mm_Socket","http://www.ti.com/lit/ds/symlink/sn74hc14.pdf"
